@@ -37,7 +37,7 @@ func BenchmarkLinkedListTraversal(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		sum := 0
 		node := linkedList
-		for node.Next != nil {
+		for node != nil {
 			sum += node.Value
 			node = node.Next
 		}
