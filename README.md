@@ -14,6 +14,10 @@ To run them:
 make test
 ```
 
+## 📖 Blog
+
+Read the full blog [here](https://ignatij.github.io/blog/arrays-vs-linked-lists).
+
 ⚖️ Takeaways
 
 - Traversal: Arrays are significantly faster due to cache efficiency.
